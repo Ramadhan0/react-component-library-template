@@ -1,0 +1,24 @@
+{
+  "name": "react-component-library-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramadhan0/react-component-library-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramadhan0/react-component-library-template/issues"
+  },
+  "homepage": "https://github.com/Ramadhan0/react-component-library-template#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
