@@ -1,6 +1,6 @@
 {
-  "name": "react-component-library-template",
-  "version": "0.0.1",
+  "name": "@Ramadhan0/react-component-library-template",
+  "version": "0.0.5",
   "description": "react component library template",
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "react": "^18.2.0",
     "rollup": "^3.2.5",
     "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.1",
     "typescript": "^4.8.4"
   },
@@ -31,5 +32,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pfg.github.com/Ramadhan0"
+  }
 }
